@@ -10,54 +10,40 @@
             padding: 0;
         }
         .container{
-           background-color: lightblue;
+           background-color: rgb(44, 92, 108);
+           height: 400px;
            text-align: center;
            padding: 5px;
            display: flex;
-           justify-content: center;
-           flex-direction:row;
-           align-items: center;
-           height: 500px;
+           /* justify-content: center; */
+           flex-direction:column;
+           /* align-items: center; */
            flex-wrap: wrap;
         }
         .container > *{
-            flex: 1;
-            height: 250px;
-            background-color: orange;
+            background-color: rgb(211, 173, 102);
             border: 1px solid white;
         }
-        .one{
-            order: 5;
-        }
-        .two{
-            flex: 2;
-            order: 4;
-        }
-        .three{
-            order: 2;
-        }
-        .four{
-            order: 3;
-        }
+        
 
     </style>
 </head>
 <body>
     <div class="container">
         <div class="one">
-            <h2>flex [1]</h2>
+            <h2>flex row</h2>
         </div>
         <div class="two">
-            <h2>sample[2]</h2>
+            <h2>sample</h2>
         </div>
         <div class="three">
-            <h2>direction[3]</h2>
+            <h2>direction</h2>
         </div>
         <div class="four">
-            <h2>display[4]</h2>
+            <h2>display</h2>
         </div>
         <div class="five">
-            <h2>flex[5]</h2>
+            <h2>flex row</h2>
         </div>
     </div>
 </body>
