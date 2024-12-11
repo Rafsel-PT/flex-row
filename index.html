@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+           background-color: lightblue;
+           text-align: center;
+           padding: 5px;
+           display: flex;
+           justify-content: center;
+           flex-direction:row;
+           align-items: center;
+           height: 500px;
+           flex-wrap: wrap;
+        }
+        .container > *{
+            flex: 1;
+            height: 250px;
+            background-color: orange;
+            border: 1px solid white;
+        }
+        .one{
+            order: 5;
+        }
+        .two{
+            flex: 2;
+            order: 4;
+        }
+        .three{
+            order: 2;
+        }
+        .four{
+            order: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">
+            <h2>flex [1]</h2>
+        </div>
+        <div class="two">
+            <h2>sample[2]</h2>
+        </div>
+        <div class="three">
+            <h2>direction[3]</h2>
+        </div>
+        <div class="four">
+            <h2>display[4]</h2>
+        </div>
+        <div class="five">
+            <h2>flex[5]</h2>
+        </div>
+    </div>
+</body>
+</html>
